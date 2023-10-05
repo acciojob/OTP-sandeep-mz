@@ -1,1 +1,63 @@
-/*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.container {
+    border: 2px solid black; /* Add a border with 2px width and black color */
+    padding: 80px; /* Add padding to the container */
+    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+}
+
+#verification_heading {
+    font-size: 24px;
+    color: #000;
+    margin-top: 20px;
+}
+
+#verification_subtext {
+    color: #777;
+    margin-top: 10px;
+}
+
+.code-container {
+    margin-top: 20px;
+}
+
+.code {
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    text-align: center;
+    background-color: #FFF;
+    color: #000;
+}
+
+/* Style the last input */
+.code:last-child {
+    margin-right: 0;
+}
+
+.para {
+    color: #777;
+    margin-top: 50px;
+    font-size: 14px; /* Increased font size for better readability */
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    padding: 10px; /* Increased padding for better spacing */
+    border-radius: 10px;
+    background-color: #eaeaea;
+    justify-content: center;
+}
+
+
