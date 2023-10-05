@@ -1,3 +1,5 @@
+/* write css here */
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -9,9 +11,9 @@ body {
 }
 
 .container {
-    border: 2px solid black; /* Add a border with 2px width and black color */
-    padding: 80px; /* Add padding to the container */
-    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+    border: 2px solid black; 
+    padding: 80px; 
+    border-radius: 10px; 
 }
 
 #verification_heading {
@@ -48,16 +50,14 @@ body {
 .para {
     color: #777;
     margin-top: 50px;
-    font-size: 14px; /* Increased font size for better readability */
+    font-size: 14px; 
     width: 500px;
     text-align: center;
     align-items: center;
     display: flex;
     height: 50px;
-    padding: 10px; /* Increased padding for better spacing */
+    padding: 10px; 
     border-radius: 10px;
     background-color: #eaeaea;
     justify-content: center;
 }
-
-
